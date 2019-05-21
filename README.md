@@ -1,25 +1,13 @@
-# Wevied (wevied-api)
+# #SGA5 Blog API (blog-api)
 
-A platform for sharing perfectly *weaved* ideas
+A sample blog api, demostrating frontend authentication
 
 
 ### Introduction
-This is the API Backend for the Wevied APP.
+This demostrates the autentication using JWT of a typical Web API.
  
 
 ### Steps to run
-- Run install  - `$ npm install` to get necessary files
-- Run `$ npm start` or `$ npm run dev`
-
-### v1 Roadmap
-#### Activities and Interactions
- - [ ] Activities on an article  - `comment` `respond`
- - [ ] Interactions on an article  - `like` `recast` `read` `bookmark`
- - [ ] External Interactions on an article - `share` `tweet`
-
-
-#### User Activities
- - [x] Create account via email, twitter, facebook
- - [x] Create session via the channels
- - [ ] Save an article
- - [ ] Publish an article
+- Run install  - `$ yarn install` OR  `$ npm install` to get necessary files
+- Run `$ yarn start` or `$ npm run start`
+- Navigate your browser to `localhost:4000/api`
