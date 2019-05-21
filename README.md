@@ -1,7 +1,6 @@
 # #SGA5 Blog API (blog-api)
 
-A sample blog api, demostrating frontend authentication
-
+A sample blog API, demonstrating front-end authentication for #SGA5
 
 ### Introduction
 This demostrates the autentication using JWT of a typical Web API.

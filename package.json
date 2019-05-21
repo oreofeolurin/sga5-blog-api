@@ -1,7 +1,7 @@
 {
   "name": "blog-api",
   "version": "0.0.1",
-  "description": "A sample blog api, demostrating frontend authentication",
+  "description": "A sample blog API, demonstrating front-end authentication for #SGA5",
   "author": "Oreofe Olurin <oreofeolurin@gmail.com>",
   "private": true,
   "scripts": {
