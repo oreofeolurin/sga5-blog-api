@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "rostrum-api",
+      "script": "./bin/server.js",
+      "watch": false,
+      "instances": "1",
+      "exec_mode": "cluster",
+      "env_production": {
+        "NODE_ENV": "production",
+        "PORT": "4040",
+        "JWT_SECRET": "TmrtJnRrb8xg0qHDzK&3s6^eZdaIuLJ6rj{$9b)vRcKI#(?q<0W7E|hM5424WC3usixD9tuGgm517eIwjO}#DFF95CFlYTD2$pGiBDBF0cxGH?<",
+        "MONGODB_URI": "mongodb://vanhack-team:vanhack-team@ds149138.mlab.com:49138/rostrum-db",
+        "SITE_DOMAIN": "http://noduit.com",
+        "STATIC_CDN_DOMAIN": "http://noduit.com/assets"
+      }
+    }
+  ]
+}
